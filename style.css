@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Inter sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    border: 2px solid rgb(222, 219, 219);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+[alt="global"] {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+.nav_btn {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: transparent;
+    border: none;
+}
+.nav_btn span {
+    color: rgb(66, 66, 66);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.mini_container {
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+.span {
+    color: rgb(240, 64, 15);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+   letter-spacing: 0%;
+   text-align: left;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+
+}
+.h2_h2 {
+    color: rgb(14, 13, 93);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box2 {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(233, 233, 233);
+    padding: 20px;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+.mini {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.mini2 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+}
+.input1 {
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+form {
+    margin: 0 auto;
+    margin-left: 180px;
+}
+.input_btn {
+    background: rgb(246, 158, 134);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 162px;
+    height: 34px;
+    left: 900px;
+    bottom: 105px;
+}
